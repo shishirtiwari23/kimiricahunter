@@ -1,0 +1,88 @@
+a
+{
+	display:block;
+	font-family:helvetica;
+	text-decoration:none;
+	color:#808080;
+}
+a:hover
+{
+	color:#4ddbff;
+}
+ul li  
+{
+	font-size:13px;
+	position:fixed;
+	
+}
+ul li ul li
+{
+    display:none;
+}
+ul
+{
+	list-style:none;
+}
+.main
+{
+	float:left;
+	width:150px;
+}
+ul li:hover ul li 
+{
+	display:block;
+	background-color:white;
+}
+ul li a
+{
+    display:block;
+	margin-bottom:50px;	
+}
+img
+{
+	position:fixed;
+}
+ul li ul li a
+{
+	font-size:14px;
+}
+ul li ul .shadowbar
+{
+	display:none;
+	z-index:-100;
+}
+ul li:hover ul .shadowbar
+{
+	display:block;
+	z-index:-100;
+}
+ul li ul li a div
+{
+	display:none;
+}
+ul li ul li a:hover div
+{
+	display:block;
+	z-index:500;
+}
+ul li a div
+{
+	display:none;
+}
+ul li a:hover div
+{
+	display:block;
+}
+div div div .zoom
+{
+	transition:transform 2s;
+}
+div div div .zoom:hover
+{
+	transform:scale(1.1);
+}
+div div.divzoom
+{
+	overflow:hidden;
+	display:inline-block;
+}
